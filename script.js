@@ -17,7 +17,7 @@ $('.galleryItemHide').click(function(e) {
         $current.removeClass('galleryItemSD');
         $current.removeClass('galleryItem');
         $current.next('.galleryItemHide').addClass('galleryItem');
-        }, 300);
+        }, 200);
     });
 
     $(".g").click(function() {
@@ -32,7 +32,7 @@ $('.galleryItemHide').click(function(e) {
     gItemLast.addEventListener('click', () =>{
     setTimeout(() =>{
         gItemFirst.classList.add('galleryItem')
-    }, 300)
+    }, 200)
 });
 
 $(".a").click(function() {
