@@ -312,10 +312,10 @@ h1,h2,h3{
     padding-bottom: 20px;
     transition: .3s ease;
     cursor: pointer;
-    -webkit-animation: galleryItem .3s ease;
-    -moz-animation: galleryItem .3s ease;
-    -o-animation: galleryItem .3s ease;
-    animation: galleryItem .3s ease;
+    -webkit-animation: galleryItem .2s ease;
+    -moz-animation: galleryItem .2s ease;
+    -o-animation: galleryItem .2s ease;
+    animation: galleryItem .2s ease;
 }
 
 @-webkit-keyframes galleryItem{
